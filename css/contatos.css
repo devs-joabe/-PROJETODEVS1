@@ -159,8 +159,10 @@ main section form{
 }
 
 main section textarea{
-    margin-top: 1%;
-    padding: 0 1px;
+    padding: 0 67%;
+    padding-bottom: 50%;
+    padding-inline-start: 1%;
+    padding-block-start: 1%;
 }
 
 .main-email{
@@ -262,11 +264,26 @@ main .section2 h1{
     }
     
     main section .main-contatos{
-        font-size: 1.0rem;
+        font-size: 1.2rem;
         text-align: start;
         background-color: aliceblue;
         color: black;
-        padding: 1%;
+        padding: 2%;
     }
+
+    main section form{
+        padding-top: 9%;
+    }
+
+    main section form textarea{
+        padding: 25%;
+        padding-inline-start: 1%;
+        padding-block-start: 1%;
+    }
+
+    main section form .main-go{
+        margin-block-end: 2%;
+    }
+
     
 }
