@@ -175,14 +175,25 @@ main section .p{
     .nav-menu.active{
         left: 0;    
     }
-
   
     main section{
     
         display: block;
         align-items: center;
-        padding: 22%;
+        padding: 20%;
+
     
+    }
+    
+    main h1{
+        font-size: 2.8rem;
+        text-align: center;
+
+    }
+
+    p{
+        font-size: 0.9rem;
+   
     }
     
 }
