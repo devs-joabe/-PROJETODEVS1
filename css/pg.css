@@ -365,22 +365,23 @@ main .section2{
         display: flex;
         width: 100%;
     }
-    .row {
-        margin-block-start: -4%;
-        padding-left: 14%;
-        display: inline-block;
+    .row  {
+
+        display: block;
         justify-content: center;
         align-items: center;
       }
     
       .card {
+        justify-content: center;
+        align-items: center;
         color: black;
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
         box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-        padding: 30px;
-        margin: 25px;
-        width: 300px;
+        padding: 25px;
+        margin: 8%;
+        width: 85%;
         transition: all 0.3s ease-out;
       }
     
