@@ -44,11 +44,15 @@ a{
 }
 
 .navbar{
+    position: fixed;
     min-height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 34px;
+    z-index: 101;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
 .logo img{
@@ -145,7 +149,8 @@ main section .p{
     }
 
     .nav-menu{
-        position: absolute;
+        justify-content: space-evenly;
+        position:fixed;
         left: -100%;
         top: 70px;
         gap: 0;
@@ -158,6 +163,11 @@ main section .p{
     
     }
 
+    .navbar .logo img{
+        width: 80px;
+    
+    }
+
     .nav-item{
         margin: 10px 0;
     }
@@ -166,6 +176,13 @@ main section .p{
         left: 0;    
     }
 
-
+  
+    main section{
+    
+        display: block;
+        align-items: center;
+        padding: 22%;
+    
+    }
     
 }

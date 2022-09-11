@@ -19,8 +19,8 @@
 }
 
 @font-face {
-    font-family: Poppins-ExtraLight;
-    src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+    font-family: Poppins-Light;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
 }
 
 
@@ -44,11 +44,15 @@ a{
 }
 
 .navbar{
+    position: fixed;
     min-height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 34px;
+    z-index: 101;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
 .logo img{
@@ -151,8 +155,7 @@ main section h1{
 }
 
 .main-img img{
-    border-bottom-left-radius: 350px;
-    border-bottom-right-radius: 350px;
+   border-radius: 30px;
 }
 
 /* FINAL */
@@ -168,13 +171,40 @@ main .section2{
 
 }
 
-main .section2 h1{
+.section2 h1{
     font-size: 2.5rem;
 }
 
-.main-img img{
-    border-bottom-left-radius: 350px;
-    border-bottom-right-radius: 350px;
+
+
+.main-footer {
+    padding: 5%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 0;
+    font-size: 1.0rem;
+    align-items: center;
+    padding-inline-end: 8%;
+    font-family: Poppins-Regular;
+    gap: 3%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.main-footer .main-text li a{  
+    color: white;
+    font-family: Poppins-Light;
+}
+
+.main-text li a:hover{
+    color: gray;
+    font-family: Poppins-Light;
+}
+
+.main-footer img{
+    display: flex;
+    width: 50%;
 }
 
 
@@ -197,7 +227,8 @@ main .section2 h1{
     }
 
     .nav-menu{
-        position: absolute;
+        justify-content: space-evenly;
+        position:fixed;
         left: -100%;
         top: 70px;
         gap: 0;
@@ -207,6 +238,11 @@ main .section2 h1{
         width: 100%;
         transition: 0.3s;
         background-color: black;
+    
+    }
+
+    .navbar .logo img{
+        width: 80px;
     
     }
 
@@ -222,26 +258,25 @@ main .section2 h1{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10%;
+        padding: 20%;
         text-align: center;
         flex-direction: column;
     
     }
 
-    main section h1{
-        font-size: 1.9rem;
+    main .main-text > h1 {
+        font-size: 1.4rem;
     }
 
     main .section2 h1{
-        font-size: 1.9rem;
+        font-size: 1.4rem;
     }
 
 
     
     .main-img img{
         padding: 0 30px;
-        width: 100%;
-        border-radius: 0 0 25% 25%;
+        width: 310px;
     }
 
     main .section2{
@@ -254,9 +289,33 @@ main .section2 h1{
     }
 
     .main-btn{
-
-        padding: 0 2%;
-        margin: 5%;
+        font-size: 1.0rem;
+        padding: 0 1%;
+        margin: 7%;
     }
+    
+     .main-footer  {
+        padding-inline-start: 5%;
+        background-color: rgb(0, 0, 0);
+        margin: 0;
+        font-size: 0.9rem;
+        align-items: center;
+        font-family: Poppins-Regular;
+        gap: 5%;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+
+    .main-text{
+        padding: 2%;
+    }
+
+    .main-footer .main-img{
+        padding: 5%;
+        display: flex;
+        width: 100%;
+    }
+  
     
 }

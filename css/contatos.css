@@ -43,11 +43,15 @@ a{
 }
 
 .navbar{
+    position: fixed;
     min-height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 34px;
+    z-index: 101;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
 .logo img{
@@ -74,7 +78,6 @@ a{
     display: none;
     cursor: pointer;
 }
-
 .bar{
     display: block;
     width: 30px;
@@ -216,8 +219,9 @@ main .section2 h1{
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-menu{
-        position: absolute;
+     .nav-menu{
+        justify-content: space-evenly;
+        position:fixed;
         left: -100%;
         top: 70px;
         gap: 0;
@@ -227,6 +231,11 @@ main .section2 h1{
         width: 100%;
         transition: 0.3s;
         background-color: black;
+    
+    }
+
+    .navbar .logo img{
+        width: 80px;
     
     }
 
@@ -242,7 +251,7 @@ main .section2 h1{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10%;
+        padding-top: 20%;
         text-align: center;
         flex-direction: column;
     
@@ -264,7 +273,7 @@ main .section2 h1{
     }
     
     main section .main-contatos{
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         text-align: start;
         background-color: aliceblue;
         color: black;
