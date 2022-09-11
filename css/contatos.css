@@ -247,6 +247,7 @@ main .section2 h1{
         left: 0;    
     }
 
+   
     main section{
         display: flex;
         justify-content: space-between;
@@ -273,7 +274,7 @@ main .section2 h1{
     }
     
     main section .main-contatos{
-        font-size: 1.0rem;
+        font-size: 0.9rem;
         text-align: start;
         background-color: aliceblue;
         color: black;
@@ -293,6 +294,5 @@ main .section2 h1{
     main section form .main-go{
         margin-block-end: 2%;
     }
-
     
 }
