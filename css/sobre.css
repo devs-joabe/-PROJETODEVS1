@@ -175,8 +175,9 @@ main section .p{
     .nav-menu.active{
         left: 0;    
     }
+
   
-  main section{
+    main section{
     
         display: block;
         align-items: center;
@@ -195,5 +196,4 @@ main section .p{
         font-size: 0.8rem;
    
     }
-    
 }

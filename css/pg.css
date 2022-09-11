@@ -208,6 +208,55 @@ main .section2{
 }
 
 
+/* CARD */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+  }
+
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    padding-inline-start: 5%;
+    float: right;
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .blue {
+    border-left: 3px solid #4895ff;
+  }
+   
+  .green {
+    border-left: 3px solid #3bb54a;
+  }
+   
+  .red {
+    border-left: 3px solid #b3404a;
+  }
+
 
 @media (max-width:760px){
     .hamburguer{
@@ -254,7 +303,7 @@ main .section2{
         left: 0;    
     }
 
-  main section{
+    main section{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -316,6 +365,54 @@ main .section2{
         display: flex;
         width: 100%;
     }
-  
+    .row {
+        margin-block-start: -4%;
+        padding-left: 14%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .card {
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+        padding: 30px;
+        margin: 25px;
+        width: 300px;
+        transition: all 0.3s ease-out;
+      }
+    
+    
+      .card:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+      }
+       
+      .card p {
+        color: #a3a5ae;
+        font-size: 16px;
+      }
+       
+      .image {
+        border-radius: 30%;
+        padding: 5%;
+        float: right;
+        max-width: 60px;
+        max-height: 60px;
+      }
+    
+      .blue {
+        border-left: 3px solid #4895ff;
+      }
+       
+      .green {
+        border-left: 3px solid #3bb54a;
+      }
+       
+      .red {
+        border-left: 3px solid #b3404a;
+      }
     
 }
