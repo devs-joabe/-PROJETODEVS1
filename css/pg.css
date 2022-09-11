@@ -254,11 +254,11 @@ main .section2{
         left: 0;    
     }
 
-    main section{
+  main section{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20%;
+        padding-top: 20%;
         text-align: center;
         flex-direction: column;
     
