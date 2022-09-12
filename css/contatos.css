@@ -285,7 +285,7 @@ main .section2 h1{
     }
 
     main section form textarea{
-        padding: 25%;
+        padding: 10%;
         padding-inline-start: 1%;
         padding-block-start: 1%;
     }
